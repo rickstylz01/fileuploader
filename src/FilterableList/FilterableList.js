@@ -1,5 +1,4 @@
-import React { Component } from 'react';
-import './FilterableList.css';
+import React, { Component } from 'react';
 import ListItem from '../ListItem/ListItem';
 
 class FilterableList extends Component {

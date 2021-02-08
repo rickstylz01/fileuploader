@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './FilterOptions.css';
+
 class FilterOptions extends Component {
   render() {
     return (

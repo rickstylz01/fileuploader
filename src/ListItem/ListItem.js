@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './ListItem.css';
 import ControlBar from '../ControlBar/ControlBar';
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
@@ -23,7 +22,7 @@ class ListItem extends Component {
       <div className="ListItem">
         <div className="ListItem__icon">
           <div className="ListItem__circle">
-            <FontAwesomeIcon icon={icons[this.props.fileType] || faFileAlt }
+            <FontAwesomeIcon icon={icons[this.props.fileType] || faFileAlt } />
           </div>
         </div>
         <div className="ListItem__content">
@@ -42,3 +41,5 @@ class ListItem extends Component {
     )
   }
 }
+
+export default ListItem;
